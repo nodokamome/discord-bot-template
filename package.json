@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot-template",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "dev": "ts-node ./src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@types/node-fetch": "^2.5.7",
+    "@types/ws": "^7.2.4",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
