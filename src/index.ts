@@ -14,5 +14,8 @@ config();
     }
   });
 
+  client.once('ready', () => {
+    console.log('Connected to Discord successfully!');
+  });
   client.login(process.env.DISCORD_TOKEN);
 })();
